@@ -1,10 +1,15 @@
 # Student Management System
 
+[![SDET](https://img.shields.io/badge/SDET-Playwright%20%2B%20k6-blueviolet?style=flat&logo=playwright)](https://playwright.dev)
+[![Live](https://img.shields.io/badge/Live_Demo-green?style=flat&logo=vercel)](https://student-management-system-frontend-topaz.vercel.app/)
+[![Tests](https://img.shields.io/badge/Test_Reports-95%25-green?style=flat&logo=github)](https://pavlovic-bojan.github.io/Student-Management-System/)
+
 A comprehensive **multi-tenant Student Management System (SMS)** designed for universities, colleges, and schools. SMS digitizes and simplifies administrative and academic operations including tenant management, student lifecycle, programs, courses, exams, finance, records, ticketing, and notifications.
 
 ## 📋 Table of Contents
 
 - [Overview](#overview)
+- [SDET Skills Showcase](#-sdet-skills-showcase)
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Quick Start](#quick-start)
@@ -16,6 +21,7 @@ A comprehensive **multi-tenant Student Management System (SMS)** designed for un
 - [Live App & Test Reports](#live-app--test-reports)
 - [GitHub Actions (CI)](#github-actions-ci)
 - [License](#license)
+- [Topics](#-topics)
 
 ## 🎯 Overview
 
@@ -37,6 +43,16 @@ A comprehensive **multi-tenant Student Management System (SMS)** designed for un
 | **School Admin** | CRUD for students, programs, courses, finance |
 | **Professor** | Exam grading, course assignments |
 | **Student** | Enrollment, exam registration, transcript access |
+
+## 🎯 SDET Skills Showcase
+
+| Skill | Implementation |
+|-------|----------------|
+| **E2E Testing** | Playwright + POM + Allure |
+| **Performance** | k6 (smoke, load, stress, spike, soak) |
+| **API Testing** | Playwright API + JSON schema validation |
+| **Multi-tenant** | Tenant context middleware |
+| **RBAC** | Role-based JWT authorization |
 
 ## ✨ Features
 
@@ -494,6 +510,12 @@ Proprietary License – All rights reserved
 - **[Frontend README](./frontend/README.md)** – Frontend application documentation
 - **[Tests README](./tests/README.md)** – Testing documentation
 - **[Business Requirements](./docs/BRD.md)** – Complete BRD
+
+## 📌 Topics
+
+`vue3` `quasar` `express` `prisma` `postgresql` `playwright` `k6-io` `sdet` `e2e-testing` `performance-testing` `multi-tenant` `student-management` `fullstack`
+
+*Add these to your repo's **About → Topics** on GitHub for discoverability.*
 
 ---
 
