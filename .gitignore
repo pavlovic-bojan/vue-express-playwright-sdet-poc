@@ -42,12 +42,13 @@ Thumbs.db
 *.sublime-project
 *.sublime-workspace
 
-# Cursor AI
+# AI
 .cursor/
 .cursor/rules/
 .cursor/cache/
 .cursor/temp/
 .cursor/*.log
+.claude/
 
 # Test results
 test-results/
